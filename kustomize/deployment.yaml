@@ -22,7 +22,7 @@ spec:
         app: podinfo
     spec:
       containers:
-      - name: podinfod
+      - name: podinfo
         image: sachinshakya507/hellonode:latest
         imagePullPolicy: IfNotPresent
         ports:
