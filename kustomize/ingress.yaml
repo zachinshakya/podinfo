@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   labels:
-    io.kompose.service: relay
+    app: podinfo
   name: relay-ingress
 spec:
   rules:
