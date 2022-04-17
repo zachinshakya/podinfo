@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   labels:
     app: podinfo
-  name: relay-ingress
+  name: podinfo-ingress
 spec:
   rules:
   - host: hellonode.example.com
@@ -13,6 +13,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: relay
+            name: podinfo
             port: 
               number: 3000
