@@ -23,8 +23,8 @@ spec:
     spec:
       containers:
       - name: podinfo
-        image: sachinshakya507/hellonode:1.2.4
-        imagePullPolicy: IfNotPresent
+        image: sachinshakya507/hellonode:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
         resources:
@@ -34,4 +34,3 @@ spec:
           requests:
             cpu: 100m
             memory: 64Mi
-            
