@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hellnodesachin
+  name: hellnode
 spec:
   minReadySeconds: 3
   revisionHistoryLimit: 5

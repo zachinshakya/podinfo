@@ -4,4 +4,7 @@ resources:
   - hpa.yaml
   - deployment.yaml
   - service.yaml
+images:
+- name: sachinshakya507/hellonode
+  newTag: latest
 
