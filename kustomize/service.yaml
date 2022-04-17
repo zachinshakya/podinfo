@@ -1,3 +1,14 @@
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: podinfo
+# spec:
+#   type: ClusterIP
+  # selector:
+  #   app: podinfo
+#   ports:
+#       port: 3000
+#     - targetPort: 3000
 apiVersion: v1
 kind: Service
 metadata:
@@ -7,6 +18,5 @@ spec:
   selector:
     app: podinfo
   ports:
+    - targetPort: 3000
       port: 3000
-      targetPort: 3000
-
