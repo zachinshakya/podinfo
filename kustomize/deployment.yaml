@@ -24,7 +24,6 @@ spec:
       containers:
       - name: podinfo
         image: docker.io/sachinshakya507/hellonode:1.0.0 # {"$imagepolicy": "flux-system:podinfo"}
-        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
         resources:
